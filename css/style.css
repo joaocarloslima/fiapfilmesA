@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --font-title: 'Bebas Neue', cursive;
+    --font-destak: 'Montserrat', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+    --bg-default: #111;
+    --bg-destak: #2d2d2d;
+    --font-color: #fff;
+    --font-destak: #f06;
+    font-size: 10px;
+}
+
+body{
+    font-family: var(--font-body);
+    font-size: 1.6rem;
+    color: var(--font-color);
+    background-color: var(--bg-default);
+}
+
+a{
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    background-color: var(--bg-destak);
+}
+
+header h1{
+    color: var(--font-destak);
+}
+
+nav {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+nav ul{
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+}
+
+nav li{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 140px;
+    background-color: var(--bg-destak);
+    text-align: center;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.card img{
+    width: 140px;
+    border-radius: 7px;
+}
+
+.botao{
+    background-color: var(--font-destak);
+    padding: .5rem 1.5rem ;
+    border-radius: 5px;
+    margin: .5rem 2rem;
+}
+
