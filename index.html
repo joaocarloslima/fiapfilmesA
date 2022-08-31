@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiap Filmes</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
+        <span class="material-icons">
+            theaters
+        </span>
         <h1>Fiap Filmes</h1>
         <nav>
             <ul>
@@ -21,25 +25,29 @@
     </header>
 
     <div class="hero">
-        <img src="" alt="">
         <p>Encontre rapidamente o que assistir</p>
     </div>
 
     <main>
         <h2>Filmes em alta</h2>
-        <section>
+        <section id="filmes" class="secao-filmes">
             <div class="card">
-                <figure>
-                    <img src="images/posters/elvis.jpg" alt="poster do filmes do Elvis" />
-                </figure>
+                <img src="images/posters/elvis.jpg" alt="poster do filmes do Elvis" />
                 <p class="titulo">Elvis</p>
-                <p class="nota">7,9</p>
+                <div class="nota">
+                    <span class="material-icons estrela">
+                    star
+                    </span>
+                    <span>7,9</span>
+                </div>
                 <a class="botao" href="#">detalhes</a>
             </div>
+
         </section>
     </main>
 
-
-
 </body>
+<script src="./js/Card.js"></script>
+<script src="./js/dados.js"></script>
+<script src="./js/script.js"></script>
 </html>
